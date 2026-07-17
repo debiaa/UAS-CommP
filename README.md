@@ -9,17 +9,20 @@ Aplikasi **REST API Gateway** berbasis Python Flask yang dirancang sebagai pintu
 ```text
 uas-commprotocol-nama-nim/
 ├── app.py                  # Source code utama server API Flask
-├── requirements.txt         # Daftar dependency package
 ├── docs/                   # Dokumentasi Proyek
 │   ├── architecture.png     # Diagram Arsitektur Sistem
-│   ├── laporan-uas.pdf      # Laporan Lengkap Akhir (10 Halaman)
-│   └── slides-uas.pptx      # Slide Presentasi (7 Slide)
+│   ├── LAPORAN MINI PROJECT UJIAN AKHIR SEMESTER.pdf      # Laporan Lengkap Akhir (10 Halaman)
+│   └── LAPORAN MINI PROJECT UJIAN AKHIR SEMESTER.pptx      # Slide Presentasi (7 Slide)
 ├── postman/                # Artefak Pengujian
-│   └── collection.json      # Postman Collection Export v2.1
+│   └── UAS CP.postman_collection.json      # Postman Collection Export v2.1
 └── evidence/               # Bukti Validasi Pengujian (Screenshots)
-    ├── success-01.png      # GET All Data (200 OK)
-    ├── success-02.png      # POST Ingest Data Sukses (201 Created)
-    ├── failure-01.png      # GET Data Tidak Ditemukan (404 Not Found)
-    ├── failure-02.png      # POST Data Cacat/Kurang Atribut (400 Bad Request)
-    ├── observability-log.png # Application Logs Console (PowerShell)
-    └── wireshark-capture.png # Analisis Trafik / Localhost Diagnostic
+    ├── get 1.png      # GET All Data (200 OK)
+    ├── post 1.png      # POST Ingest Data Sukses (201 Created)
+    ├── failed 1.png      # GET Data Tidak Ditemukan (404 Not Found)
+    ├── failed 2.png      # POST Data Cacat/Kurang Atribut (400 Bad Request)
+    ├── observability.png # Application Logs Console (PowerShell)
+    └── wireshark.png # Analisis Trafik / Localhost Diagnostic
+
+## Author
+Anggi debia zahra
+25120500005
