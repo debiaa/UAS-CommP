@@ -23,6 +23,6 @@ uas-commprotocol-nama-nim/
     ├── observability.png # Application Logs Console (PowerShell)
     └── wireshark.png # Analisis Trafik / Localhost Diagnostic
 
-## Author
+
 Anggi debia zahra
 25120500005
